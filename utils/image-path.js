@@ -1,0 +1,22 @@
+export default {
+    logoImg: require('@/static/cwtx/logo.png'),                     //卡号查询页面
+    loginBg: require('@/static/cwtx/bj.png'),                       //切换卡号页面背景图
+    indexTopBg: require('@/static/cwtx/headerbj.jpg'),              //首页顶部背景图   
+    indexIdCardBgFront: require('@/static/cwtx/sfz1.png'),          //身份证正面 
+    indexIdCardBgBack: require('@/static/cwtx/sfz2.png'),           //身份证反面  
+    indexIdCardBghHold: require('@/static/cwtx/sfz3.png'),          //手持身份证 
+    userBgTop: require('@/static/cwtx/userbj.png'),                 //个人中心顶部背景图
+    avatar: require('@/static/cwtx/head.png'),                      //个人中心个人头像默认图
+    icons: require('@/static/cwtx/sprite.png'),                     //icon
+    rachargeBg: require('@/static/cwtx/inquire.png'),               //充值页面背景图
+    yidongImage: require('@/static/cwtx/yidong.png'),               //确认订单服务商logo移动
+    liantongImage: require('@/static/cwtx/liantong.png'),           //确认订单服务商logo联通
+    dianxinImage: require('@/static/cwtx/dianxin.png'),             //确认订单服务商logo电信
+    chongzhiImage: require('@/static/cwtx/chongzhi.png'),           //确认订单logo---充值订单
+    confirmTopBg: require('@/static/cwtx/flowboxbj.png'),           //确认订单title背景
+    confirmBottomBg: require('@/static/cwtx/footerbanner.png'),     //确认订单bottom背景
+    flowBottomImg: require('@/static/cwtx/inquire-footer.png'),     //确认订单bottom背景
+    wxIcon: require('@/static/cwtx/wechat-icon.png'),               //微信icon
+    balanceIcon: require('@/static/cwtx/balace-icon.png'),          //零钱icon
+	clockIcon: require('@/static/cwtx/sprite-time.png'),          //时钟图标
+}

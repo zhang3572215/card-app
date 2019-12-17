@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "推广",
+  "pullRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

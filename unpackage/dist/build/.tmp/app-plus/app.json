@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/user",
+    "pages/change",
+    "pages/confirm",
+    "pages/recorder",
+    "pages/flow",
+    "pages/diacrisis",
+    "pages/set-meals",
+    "pages/recharge",
+    "pages/set-password",
+    "pages/change-pwd",
+    "pages/web-view",
+    "pages/help",
+    "pages/more",
+    "pages/more-web",
+    "pages/login",
+    "pages/pre-certify",
+    "pages/certification",
+    "pages/activity",
+    "pages/receive-spec"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "创网通讯",
+    "navigationBarBackgroundColor": "transparent",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/user",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/help",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/more",
+        "text": "更多"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "IOT中心",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "page-foot": "/components/page-foot",
+    "u-link": "/components/uLink"
+  }
+}

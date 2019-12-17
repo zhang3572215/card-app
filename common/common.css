@@ -1,0 +1,195 @@
+/*重置*/
+
+html {
+    background-color: #fff;    
+}
+em,i {
+    font-style: normal;
+}
+/*基础字体设定*/
+input, label, select, option, textarea, button, fieldset, legend {
+font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif
+}
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+* {
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+    outline: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    box-sizing: border-box!important;
+}
+a:focus {
+    text-decoration: none !important;
+}
+a:link {
+    text-decoration: none !important;
+}
+a:visited {
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: none;
+}
+div {
+    display: block;
+}
+a {
+    cursor: pointer;
+}
+a,input {
+    outline: none!important;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    color: #fff;
+}
+
+span:active {
+    color: #fff;
+}
+img {
+    margin: 0;
+}
+a,p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    color: #999;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+button {
+    border: none;
+    outline: none;
+}
+/*超链接外虚线框取消*/
+.HideFocus {
+/*blr:expression(this.onFocus=this.blur());  for ie 5+ */
+    outline:none; /* for firefox 1.5 + */
+}
+/*移除HTML5 input在type="number"时的上下小箭头*/
+/*在chrome下：*/
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+/*Firefox下：*/
+input[type="number"]{-moz-appearance:textfield;}
+/*去掉Webkit(chrome)浏览器中input(文本框)或textarea的黄色焦点框
+  去掉chrome记住密码后自动填充表单的黄色背景*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    border: none!important;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+/* 去除input默认样式 */
+input[type="button"], input[type="submit"], input[type="reset"]
+{
+    appearance:none;    /* 所有主流浏览器都不支持 appearance 属性 */
+    -moz-appearance:none;   /* Firefox 支持替代的 -moz-appearance 属性 */
+    -webkit-appearance:none; /* Safari 和 Chrome 支持替代的 -webkit-appearance 属性 */
+}
+input[type="text"],input[type="password"]
+{
+    -webkit-border-radius:0px;  /* 去掉 input[type="text"] 等等默认 border-radius 圆角 */
+}
+input,button,select,textarea{
+    outline:none;
+    -webkit-appearance:none;
+    background-color: transparent;
+}
+textarea{ resize:none;}
+/*iphoneX兼容*/
+@supports(padding: max(0px)) {
+    .post { padding-left: max(12px, constant(safe-area-inset-left));
+        padding-right: max(12px, constant(safe-area-inset-right));}
+}
+/*给默认链接定样式*/
+a[href]:not([class]){
+    color: #666;
+    text-decoration:none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+/* 清理浮动 */
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+/*附加公共样式*/
+/*分割线*/
+.cut_line {
+    height: 1rem;
+    border: 0.1rem solid #e4e4e4;
+    background-color: #f5f5f5;
+    display: block;
+}
+/*顶部定位*/
+.fixed_top{
+    position: fixed;
+    top: 0rem;
+    display: block;
+    width: 100%;
+}
+/*溢出文字隐藏*/
+.text_hide{
+    vertical-align: middle;
+    white-space: nowrap;
+    -o-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none;
+}

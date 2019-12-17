@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/user",
+    "pages/change",
+    "pages/confirm",
+    "pages/recorder",
+    "pages/flow",
+    "pages/diacrisis",
+    "pages/set-meals",
+    "pages/recharge",
+    "pages/set-password",
+    "pages/change-pwd",
+    "pages/web-view",
+    "pages/help",
+    "pages/more",
+    "pages/more-web",
+    "pages/login",
+    "pages/certification",
+    "pages/activity"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "创网通讯",
+    "titleBarColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "items": [
+      {
+        "pagePath": "pages/user",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/help",
+        "name": "客服"
+      },
+      {
+        "pagePath": "pages/more",
+        "name": "更多"
+      }
+    ]
+  },
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "page-foot": "/components/page-foot",
+    "u-link": "/components/uLink"
+  }
+}

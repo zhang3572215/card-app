@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消费记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "order-list": "/components/order-list/OrderList"
+  }
+}

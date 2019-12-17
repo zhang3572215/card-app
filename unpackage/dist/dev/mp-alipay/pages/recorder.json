@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "消费记录",
+  "pullRefresh": false,
+  "usingComponents": {
+    "order-list": "/components/order-list/OrderList"
+  }
+}

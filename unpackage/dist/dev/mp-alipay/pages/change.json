@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "切换卡号",
+  "pullRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

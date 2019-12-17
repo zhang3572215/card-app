@@ -1,0 +1,175 @@
+
+.order-list.data-v-369f135c {
+    padding: 4vw!important;
+    background-color: transparent;
+}
+.order-list ._p.data-v-369f135c {
+    font-size: 6.4vw;
+    line-height: 8vw;
+    color: #666;
+}
+.order-list .order-item.data-v-369f135c {
+    padding: 1.333334vw 4vw 4vw;
+    position: relative;
+    background-color: white;
+    border-radius: 1.333333vw;
+    -webkit-box-shadow: 0.959px 10.958px 38px 0px rgba(67, 121, 236, 0.13);
+            box-shadow: 0.959px 10.958px 38px 0px rgba(67, 121, 236, 0.13)
+}
+.order-list .order-item + .order-item.data-v-369f135c {
+    margin-top: 4vw;
+}
+.order-list .tit.data-v-369f135c{
+	border-bottom: 1px solid #eee;
+}
+.order-list .order.data-v-369f135c {
+  margin-top: 2vw;
+	font-size: 2.666667vw;
+	line-height: 4vw;
+}
+.order-list .time.data-v-369f135c {
+	font-size: 2.666667vw;
+	line-height: 4vw;
+	text-align: right;
+  margin-bottom: 2vw;
+}
+.main-list.data-v-369f135c {
+	width: 100%;
+	padding-top: 4vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+.type-img.data-v-369f135c {
+	width: 20vw;
+	height: 20vw;
+	-webkit-box-flex: 0;
+	-webkit-flex: none;
+	    -ms-flex: none;
+	        flex: none;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.type-img ._img.data-v-369f135c{
+	max-width: 100%;
+	max-height: 100%;
+}
+.desc.data-v-369f135c {
+	width: 80%;
+	padding-left: 3.2vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+.desc .title.data-v-369f135c {
+	color: #333;
+	font-size: 3.466667vw;
+	line-height: 6.4vw;
+}
+.desc .time.data-v-369f135c {
+	font-size: 3.2vw;
+    line-height: 6.4vw;
+    color: #666;
+}
+.desc .time ._i.data-v-369f135c {
+	font-size: 3.2vw;
+	color: #4379ec;
+	display: inline;
+}
+.desc .faction.data-v-369f135c {
+	width: 100%;
+    line-height: 6.4vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+}
+.desc .faction ._p.data-v-369f135c {
+	display: inline;
+}
+.faction .pay-text.data-v-369f135c{
+	font-size: 3.2vw;
+	color: #999;
+	display: inline;
+}
+.faction .pay-text ._i.data-v-369f135c {
+	font-size: 3.2vw;
+	color: #4379ec;
+	display: inline;
+}
+.faction .price.data-v-369f135c {
+	font-size: 3.2vw;
+	padding-left: 1em;
+	color: #999;
+}
+.faction .price ._i.data-v-369f135c {
+	font-size: 5.333334vw;
+    color: #333;
+	display: inline;
+}
+.order-list-bottom.data-v-369f135c {
+  padding:4vw!important;
+}
+.order-list-bottom ._p.data-v-369f135c {
+  font-size: 4.8vw;
+  line-height: 6.4vw;
+  color: #999;
+  text-align: center;
+}
+

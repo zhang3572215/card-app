@@ -1,0 +1,250 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__9FCCC78",
+  "name": "IOT中心",
+  "version": {
+    "name": "1.0.29",
+    "code": 1029
+  },
+  "description": "应用描述",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "OAuth": {},
+    "Push": {},
+    "Share": {},
+    "VideoPlayer": {},
+    "Speech": {},
+    "Payment": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "transparent"
+    },
+    "compatible": {
+      "ignoreVersion": true
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "distribute": {
+      "orientation": [
+        "portrait-primary"
+      ],
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png"
+        },
+        "ios": {
+          "appstore": "unpackage/res/icons/1024x1024.png",
+          "ipad": {
+            "app": "unpackage/res/icons/76x76.png",
+            "app@2x": "unpackage/res/icons/152x152.png",
+            "notification": "unpackage/res/icons/20x20.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "proapp@2x": "unpackage/res/icons/167x167.png",
+            "settings": "unpackage/res/icons/29x29.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "spotlight": "unpackage/res/icons/40x40.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png"
+          },
+          "iphone": {
+            "app@2x": "unpackage/res/icons/120x120.png",
+            "app@3x": "unpackage/res/icons/180x180.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "notification@3x": "unpackage/res/icons/60x60.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "settings@3x": "unpackage/res/icons/87x87.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png",
+            "spotlight@3x": "unpackage/res/icons/120x120.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+        ]
+      },
+      "apple": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "urlschemewhitelist": [
+          "baidumap",
+          "iosamap"
+        ]
+      },
+      "plugins": {
+        "speech": {
+          "ifly": {}
+        },
+        "oauth": {
+          "weixin": {
+            "appid": "wx26b2bcdaaf6b7c3c",
+            "appsecret": "c7e6f53562675aa42f3b632f330ddd46",
+            "UniversalLinks": "https://front.iot886.com/"
+          }
+        },
+        "payment": {
+          "weixin": {
+            "appid": "wx26b2bcdaaf6b7c3c",
+            "UniversalLinks": "https://front.iot886.com/"
+          }
+        },
+        "maps": {},
+        "push": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "nativePlugins": {
+      "JY-JPush": {
+        "ios_channel": "iOS",
+        "android_channel": "android",
+        "android_appkey": "739a7dbc0ad82d0552894148",
+        "ios_appkey": "739a7dbc0ad82d0552894148",
+        "__plugin_info__": {
+          "name": "JYJPush极光推送插件 - 支持iOS/Android",
+          "description": "极光推送Uni版本",
+          "platforms": "Android,iOS",
+          "url": "https://ext.dcloud.net.cn/plugin?id=741",
+          "android_package_name": "com.iot886.front",
+          "ios_bundle_id": "",
+          "isCloud": true,
+          "bought": 1,
+          "pid": "741",
+          "parameters": {
+            "ios_channel": {
+              "des": "极光推送的渠道名称",
+              "key": "JPUSH_CHANNEL",
+              "value": "iOS"
+            },
+            "android_channel": {
+              "des": "极光推送的渠道名称",
+              "key": "JPUSH_CHANNEL",
+              "value": "android"
+            },
+            "android_appkey": {
+              "des": "极光推送的APPKEY",
+              "key": "JPUSH_APPKEY",
+              "value": ""
+            },
+            "ios_appkey": {
+              "des": "极光推送的APPKEY",
+              "key": "JPUSH_APPKEY",
+              "value": ""
+            }
+          }
+        }
+      }
+    },
+    "arguments": "{\"name\":\"\",\"path\":\"\",\"query\":\"\",\"id\":0}",
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#F8F8F8",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.4.2",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    },
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#007AFF",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "backgroundColor": "#F8F8F8",
+      "list": [
+        {
+          "pagePath": "pages/user",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/help",
+          "text": "客服"
+        },
+        {
+          "pagePath": "pages/more",
+          "text": "更多"
+        }
+      ],
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  }
+}

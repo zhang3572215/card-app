@@ -1,0 +1,1 @@
+export default 'http://cwtx.10010123.com/'

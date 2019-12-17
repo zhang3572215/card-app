@@ -1,0 +1,178 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/user",
+			"style": {
+				  "navigationBarTitleText": "个人中心",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/change",
+			"style": {
+				  "navigationBarTitleText": "切换卡号",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/confirm",
+			"style": {
+				  "navigationBarTitleText": "余额充值",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/recorder",
+			"style": {
+				  "navigationBarTitleText": "消费记录",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/flow",
+			"style": {
+				  "navigationBarTitleText": "流量查询",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/diacrisis",
+			"style": {
+				  "navigationBarTitleText": "智能诊断",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/set-meals",
+			"style": {
+				  "navigationBarTitleText": "选择套餐",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/recharge",
+			"style": {
+				  "navigationBarTitleText": "套餐充值",//设置页面标题文字
+				  "enablePullDownRefresh":true//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/set-password",
+			"style": {
+				  "navigationBarTitleText": "设置密码",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/change-pwd",
+			"style": {
+				  "navigationBarTitleText": "重置密码",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/web-view",
+			"style": {
+				  "navigationBarTitleText": "帮助文档",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/help",
+			"style": {
+				  "navigationBarTitleText": "客服",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/more",
+			"style": {
+				  "navigationBarTitleText": "更多",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/more-web",
+			"style": {
+				  "navigationBarTitleText": "领卡",//设置页面标题文字
+				  "enablePullDownRefresh":false//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				  "navigationBarTitleText": "登录",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/pre-certify",
+			"style": {
+				  "navigationBarTitleText": "实名认证",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/certification",
+			"style": {
+				  "navigationBarTitleText": "实名认证",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/activity",
+			"style": {
+				  "navigationBarTitleText": "推广",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/receive-spec",
+			"style": {
+				  "navigationBarTitleText": "换卡",	//设置页面标题文字
+				  "enablePullDownRefresh":false			//开启下拉刷新
+			}
+		}
+    ],
+	"subPackages": [
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "创网通讯",
+		"navigationBarBackgroundColor": "transparent",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-alipay": {
+			"titleBarColor": "#FFFFFF"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+	    "list": [{
+	      "pagePath": "pages/user",
+	      "text": "首页"
+	    },{
+	      "pagePath": "pages/help",
+	      "text": "客服"
+	    },{
+	      "pagePath": "pages/more",
+	      "text": "更多"
+	    }]
+	 }
+}

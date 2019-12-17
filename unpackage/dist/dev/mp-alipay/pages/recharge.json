@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "套餐充值",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
